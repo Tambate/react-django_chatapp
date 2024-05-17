@@ -1,6 +1,6 @@
 {
-    "python.formatting.povider":"black",
-    "python.formatting.blakArgs": [
+    "python.formatting.provider":"black",
+    "python.formatting.blackArgs": [
         "--line-length",
         "119"
     ],
@@ -9,13 +9,12 @@
     "python.linting.lintOnSave": true,
     "python.linting.flake8Args": [
         "--line-length",
-        "119",
+        "119"
     ],
-
 
     "[python]": {
         "editor.codeActionsOnSave": {
-            "source.organizeImports": true
+            "source.organizeImports": "explicit"
         }
     }
 }
